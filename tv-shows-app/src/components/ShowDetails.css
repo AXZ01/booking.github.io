@@ -1,0 +1,124 @@
+/* ShowDetails.css */
+
+.show-details-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.show-summary {
+  margin-top: 40px;
+  color: #555;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.view-summary-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.view-summary-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.book-ticket-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.book-ticket-button:hover {
+  background-color: #218838;
+}
+
+/* TicketBookingForm.css */
+
+.ticket-booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-booking-form h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="text"]:disabled {
+  background-color: #eee;
+}
+
+.ticket-booking-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.ticket-booking-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
